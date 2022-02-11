@@ -1,0 +1,86 @@
+.getInfo {
+  animation: show 0.4s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.getInfo__title {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 0;
+  text-align: center;
+}
+.getInfo__input {
+  padding: 10px 40px;
+  font-size: 23px;
+  width: 100%;
+  background-color: rgb(142, 143, 143);
+}
+.getInfo__popUp {
+  background-color: rgba(0,0,0,0.3);
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  width: 100%;
+  display: none;
+}
+.popUp__body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 208px;
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+.popUp__btn {
+  height: 50px;
+  padding: 0 60px;
+  font-size: 24px;
+  color: rgb(202, 202, 202);
+  background-color:rgb(87, 86, 86);
+  border-radius: 2px;
+  margin: 20px 0;
+  transition: 0.3s;
+}
+.popUp__btn:hover {
+  color: #FFFF
+}
+.getInfo__popUp--active {
+  display: block;
+}
+.getInfo__btn {
+  height: 50px;
+  padding: 0 60px;
+  font-size: 24px;
+  color: rgb(226, 226, 226);
+  background-color: rgb(87, 86, 86);
+  border-radius: 2px;
+  margin: 20px 0;
+  transform: scale(0.9);
+  transition: 0.3s;
+}
+.getInfo__btn:hover {
+  transform: scale(1);
+}
+@keyframes show {
+  0%{
+    transform: translate(-100%,0);
+  }
+  100%{
+    transform: translate(0);
+  }
+}
+@media (min-width: 400px){
+  .getInfo__input {
+    max-width: 368px;
+  }
+}

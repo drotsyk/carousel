@@ -1,0 +1,26 @@
+.input__body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.input__back {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 30px;
+  width: 100px;
+  background-color: rgb(73, 73, 73);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(212, 212, 212);
+  transition: 0.3s;
+}
+.input__back:hover {
+  opacity: 0.9;
+  transform: scale(1.09);
+}
