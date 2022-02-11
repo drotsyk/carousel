@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/carousel/static/css/main.f4711b6a.css",
+    "main.js": "/carousel/static/js/main.cc778556.js",
+    "index.html": "/carousel/index.html",
+    "main.f4711b6a.css.map": "/carousel/static/css/main.f4711b6a.css.map",
+    "main.cc778556.js.map": "/carousel/static/js/main.cc778556.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4711b6a.css",
+    "static/js/main.cc778556.js"
+  ]
+}
